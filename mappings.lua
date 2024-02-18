@@ -23,7 +23,7 @@ return {
     ["<leader>T"] = { name = " Transparent" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["}b"] = { "<cmd>bNext<cr>", desc = "Next buffer" },
+    ["}b"] = { "<cmd>bnext<cr>", desc = "Next buffer" },
     ["{b"] = { "<cmd>bprevious<cr>", desc = "Previous buffer" },
   },
   t = {
